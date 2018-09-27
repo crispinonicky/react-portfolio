@@ -4,7 +4,7 @@ import React from "react";
 
 const home = () => {
   return (
-    <div>
+    <div className = "home">
       <h1>Welcome to my Portfolio!</h1>
       <h3>
         I've completed my Bachelors' in Arts in Psychology at Wake Forest

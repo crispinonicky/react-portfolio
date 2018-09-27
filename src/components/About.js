@@ -5,14 +5,12 @@ import MadSkills from './MadSkills'
 
 const about = () => {
   return (
-    <div>
-      <div>
+    <div className="about">
         <h1>Check out my mad skills!</h1>
 
 <MadSkills/>
 
 
-      </div>
     </div>
   )
 }

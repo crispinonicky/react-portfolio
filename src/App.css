@@ -1,9 +1,6 @@
 .App {
   text-align: center;
-}
-
-li{
-  list-style: none;
+  margin: 0;
 }
 
 .App-logo {
@@ -16,6 +13,7 @@ li{
   height: 150px;
   padding: 20px;
   color: white;
+  margin: 0;
 }
 
 .App-title {
@@ -32,5 +30,59 @@ li{
 }
 
 img{
-  width: 200px;
+  width: 300px;
+  padding-top: 5vh;
+}
+
+.layout{
+  width: 600px;
+  margin-left: 22vw;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  margin: 0;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.home{
+  margin: 0;
+  height: 90vh;
+  background-image: url("https://image.freepik.com/free-vector/abstract-gray-background-with-lines_1108-73.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery{
+  background-image: url("https://previews.123rf.com/images/mkphotoshu/mkphotoshu1509/mkphotoshu150901492/45439511-white-concrete-background-cement-textured.jpg");
+
+}
+
+.about{
+  background-image: url("https://www.simplysupply.co.uk/wp-content/uploads/plain-blackboard-background.jpg");
+  color: white;
+  height: 100vh;
+
 }

@@ -6,21 +6,18 @@ const MadSkills = () => {
   return (
     <div>
       <div>
-        
-        <ul>
 
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Node.js</li>
-        <li>jQuery</li>
-        <li>React.js</li>
-        <li>AJAX</li>
-        <li>Git/GitHub</li>
-        <li>Express.js</li>
-        <li>SPSS/Research Studies</li>
 
-        </ul>
+        <p>Javascript</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Node.js</p>
+        <p>jQuery</p>
+        <p>React.js</p>
+        <p>AJAX</p>
+        <p>Git/GitHub</p>
+        <p>Express.js</p>
+        <p>SPSS/Research Studies</p>
 
 
       </div>
